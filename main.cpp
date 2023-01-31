@@ -3,8 +3,7 @@
 #include <string>
 #include "group.h"
 using namespace std;
-int main()
-{
+int main() {
     Student nastiaH1("Anastasia1","Hodiak1",17,{1,2,5,2,5});
     Student nastiaH2("Anastasia2","Hodiak2",18,{2,1,5,4,4});
     Student nastiaH3("Anastasia3","Hodiak3",19,{3,2,5,1,3});

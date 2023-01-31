@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 #include <vector>
@@ -21,7 +22,7 @@ class Student {
       float getAverageGrade();
 };
 
-class Group{
+class Group {
   private:
     std::vector<Student> allStudent;
   public:
@@ -32,4 +33,3 @@ class Group{
     void getGroupRating();
     ~Group();
 };
-
