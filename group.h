@@ -21,7 +21,6 @@ class Student {
       std::vector<int> getGrades();
       float getAverageGrade();
 };
-
 class Group {
   private:
     std::vector<Student> allStudent;
@@ -32,4 +31,4 @@ class Group {
     void removeStudent(Student oldStudent);
     void getGroupRating();
     ~Group();
-};
+}; 
